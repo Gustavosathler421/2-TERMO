@@ -4,14 +4,8 @@ let pecasPorCiclo = entrada.questionFloat("Quantas pecas a maquina produz por ci
 
 let producaoAcumulada = 0;
 
-for (let ciclo = 1; ciclo <= 10; ciclo++) {
+for (let i = 1; i <= 10; i++) {
     producaoAcumulada = producaoAcumulada + pecasPorCiclo;
 
-    console.log(
-        "Ciclo",
-        ciclo,
-        "- Produção acumulada:",
-        producaoAcumulada,
-        "peças"
-    );
+    console.log("Ciclo",i,"- Produção acumulada:",producaoAcumulada,"peças");
 }
